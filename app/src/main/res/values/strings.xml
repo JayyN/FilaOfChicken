@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FilaOfChicken</string>
+    <string name="FilaOfChicken">FilaOfChicken</string>
+    <string name="Fries">Fries</string>
+    <string name="Nuggets">Nuggets</string>
+    <string name="ChickenSandwhich">Chicken Sandwhich</string>
+    <string name="Drinks">Drinks</string>
+    <string name="Sauces">Sauces</string>
+</resources>
