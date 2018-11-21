@@ -12,8 +12,8 @@ public class FilaofchickenactivityMainActivity extends AppCompatActivity {
     TextView Title;
     Button Fries;
     Button Nuggets;
-    Button ChickenSandwhich;
     Button Drinks;
+    Button ChickenSandwhich;
     Button Sauces;
 
 
@@ -25,17 +25,33 @@ public class FilaofchickenactivityMainActivity extends AppCompatActivity {
         Title = (TextView) findViewById(R.id.title);
         Fries = (Button) findViewById(R.id.Fries);
         Nuggets = (Button) findViewById(R.id.Nuggets);
-        ChickenSandwhich = (Button) findViewById(R.id.ChickenSandwhich);
         Drinks = (Button) findViewById(R.id.Drinks);
+        ChickenSandwhich = (Button) findViewById(R.id.ChickenSandwhich);
         Sauces = (Button) findViewById(R.id.Sauces);
 
         Fries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent FriesIntent = new Intent( FilaofchickenactivityMainActivity.this, FriesActivity.class);
-                //startActivity(FriesActivity);
+                startActivity(FriesIntent);
+
             }
         });
+        Nuggets.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent NuggetsIntent = new Intent(FilaofchickenactivityMainActivity.this, NuggetsActivity.class);
+                startActivity(NuggetsIntent);
+            }
+        });
+        Drinks.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent DrinksIntent = new Intent(FilaofchickenactivityMainActivity.this, DrinksActivity.class);
+                startActivity(DrinksIntent);
+            }
+        });
+
 
     }
 }

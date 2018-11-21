@@ -24,16 +24,16 @@
         android:text="@string/Nuggets"/>
 
     <Button
-        android:id="@+id/ChickenSandwhich"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ChickenSandwhich"/>
-
-    <Button
         android:id="@+id/Drinks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Drinks"/>
+
+    <Button
+        android:id="@+id/ChickenSandwhich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChickenSandwhich"/>
 
     <Button
         android:id="@+id/Sauces"

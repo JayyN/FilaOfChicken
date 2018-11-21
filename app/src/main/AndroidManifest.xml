@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FriesActivity"></activity>
+        <activity android:name=".FriesActivity" />
+        <activity android:name=".NuggetsActivity" />
+        <activity android:name=".DrinksActivity"></activity>
     </application>
 
 </manifest>
