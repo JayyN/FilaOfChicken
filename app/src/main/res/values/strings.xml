@@ -3,7 +3,11 @@
     <string name="FilaOfChicken">FilaOfChicken</string>
     <string name="Fries">Fries</string>
     <string name="Nuggets">Nuggets</string>
-    <string name="ChickenSandwhich">Chicken Sandwhich</string>
+    <string name="ChickenSandwhich">ChickenSandwhich</string>
     <string name="Drinks">Drinks</string>
     <string name="Sauces">Sauces</string>
+    <string name="Smallfrie">Smallfrie</string>
+    <string name="Mediumfrie">Mediumfrie</string>
+    <string name="Largefrie">Largefrie</string>
+
 </resources>
