@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.RadioButton;
 
 public class FilaofchickenactivityMainActivity extends AppCompatActivity {
 
@@ -13,8 +14,17 @@ public class FilaofchickenactivityMainActivity extends AppCompatActivity {
     Button Fries;
     Button Nuggets;
     Button Drinks;
-    Button ChickenSandwhich;
-    Button Sauces;
+    RadioButton Smallfrie;
+    RadioButton Mediumfrie;
+    RadioButton Largefrie;
+    RadioButton TenpcNugget;
+    RadioButton TwentypcNugget;
+    RadioButton ThirtypcNugget;
+    RadioButton Smalldrink;
+    RadioButton Mediumdrink;
+    RadioButton Largedrink;
+    double price;
+    TextView showprice;
 
 
     @Override
@@ -26,8 +36,17 @@ public class FilaofchickenactivityMainActivity extends AppCompatActivity {
         Fries = (Button) findViewById(R.id.Fries);
         Nuggets = (Button) findViewById(R.id.Nuggets);
         Drinks = (Button) findViewById(R.id.Drinks);
-        ChickenSandwhich = (Button) findViewById(R.id.ChickenSandwhich);
-        Sauces = (Button) findViewById(R.id.Sauces);
+        Smallfrie = (RadioButton) findViewById(R.id.Smallfrie);
+        Mediumfrie = (RadioButton) findViewById(R.id.Mediumfrie);
+        Largefrie = (RadioButton) findViewById(R.id.Largefrie);
+        TenpcNugget = (RadioButton) findViewById(R.id.TenpcNugget);
+        TwentypcNugget = (RadioButton) findViewById(R.id.TwentypcNugget);
+        ThirtypcNugget = (RadioButton) findViewById(R.id.ThirtypcNugget);
+        Smalldrink = (RadioButton) findViewById(R.id.Smalldrink);
+        Mediumdrink = (RadioButton) findViewById(R.id.Mediumdrink);
+        Largedrink = (RadioButton) findViewById(R.id.Largedrink);
+        price = 0.00;
+        showprice = (TextView) findViewById(R.id.Price);
 
         Fries.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +70,10 @@ public class FilaofchickenactivityMainActivity extends AppCompatActivity {
                 startActivity(DrinksIntent);
             }
         });
+
+        //Small.setOnClickListener(new View.OnClickListener()){
+
+        //}
 
 
     }

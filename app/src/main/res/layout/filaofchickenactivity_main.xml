@@ -6,6 +6,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"/>
+
+    <TextView
         android:id="@+id/filaofchicken"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,18 +34,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Drinks"/>
-
-    <Button
-        android:id="@+id/ChickenSandwhich"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ChickenSandwhich"/>
-
-    <Button
-        android:id="@+id/Sauces"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Sauces"/>
-
 
 </LinearLayout>
